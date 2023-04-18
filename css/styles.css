@@ -169,7 +169,7 @@ padding-right: 15px;
 
 .nav-link.current-page::after {
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     display: block;
     content: "";
     width: 100%;
@@ -193,6 +193,7 @@ padding-right: 15px;
     padding: 24px 0;
 
     color: inherit;
+    transition: color var(--transition-dur-func);
 }
 
 /* ========== Hero section ========== */
